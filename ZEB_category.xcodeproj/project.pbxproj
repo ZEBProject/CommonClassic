@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21B6461C1FAC010C00A69256 /* UITableView+zeb_cellAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B6461B1FAC010C00A69256 /* UITableView+zeb_cellAnimation.m */; };
+		21B646201FAC0B7300A69256 /* NSString+tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B6461F1FAC0B7300A69256 /* NSString+tool.m */; };
+		21B646231FAC385A00A69256 /* NSString+Predicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B646221FAC385A00A69256 /* NSString+Predicate.m */; };
+		21B6462A1FAC411200A69256 /* NSArray+tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B646291FAC411200A69256 /* NSArray+tool.m */; };
+		21B6462E1FAC418900A69256 /* NSDictionary+tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B6462D1FAC418900A69256 /* NSDictionary+tool.m */; };
+		21B646311FAC437400A69256 /* UIButton+tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B646301FAC437400A69256 /* UIButton+tool.m */; };
+		21B646351FAC4DF800A69256 /* UIMenuItem+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B646341FAC4DF800A69256 /* UIMenuItem+Category.m */; };
+		21B646391FAC507400A69256 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B646381FAC507400A69256 /* UIImage+Category.m */; };
+		21B6463C1FAC682B00A69256 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B6463B1FAC682B00A69256 /* UIView+Category.m */; };
+		21B646421FAC68DB00A69256 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B646411FAC68DB00A69256 /* UIView+Frame.m */; };
+		21B646451FAFF36D00A69256 /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B646441FAFF36D00A69256 /* UIColor+hex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21B645FD1FAC008900A69256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21B645DB1FAC008900A69256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21B645E21FAC008900A69256;
+			remoteInfo = ZEB_category;
+		};
+		21B646081FAC008900A69256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21B645DB1FAC008900A69256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21B645E21FAC008900A69256;
+			remoteInfo = ZEB_category;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21B645E31FAC008900A69256 /* ZEB_category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZEB_category.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B645FC1FAC008900A69256 /* ZEB_categoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZEB_categoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B646071FAC008900A69256 /* ZEB_categoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZEB_categoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B6461A1FAC010C00A69256 /* UITableView+zeb_cellAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+zeb_cellAnimation.h"; sourceTree = "<group>"; };
+		21B6461B1FAC010C00A69256 /* UITableView+zeb_cellAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+zeb_cellAnimation.m"; sourceTree = "<group>"; };
+		21B6461E1FAC0B7300A69256 /* NSString+tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+tool.h"; sourceTree = "<group>"; };
+		21B6461F1FAC0B7300A69256 /* NSString+tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+tool.m"; sourceTree = "<group>"; };
+		21B646211FAC385A00A69256 /* NSString+Predicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Predicate.h"; sourceTree = "<group>"; };
+		21B646221FAC385A00A69256 /* NSString+Predicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Predicate.m"; sourceTree = "<group>"; };
+		21B646281FAC410D00A69256 /* NSArray+tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+tool.h"; sourceTree = "<group>"; };
+		21B646291FAC411200A69256 /* NSArray+tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+tool.m"; sourceTree = "<group>"; };
+		21B6462C1FAC418300A69256 /* NSDictionary+tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+tool.h"; sourceTree = "<group>"; };
+		21B6462D1FAC418900A69256 /* NSDictionary+tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+tool.m"; sourceTree = "<group>"; };
+		21B6462F1FAC437400A69256 /* UIButton+tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+tool.h"; sourceTree = "<group>"; };
+		21B646301FAC437400A69256 /* UIButton+tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+tool.m"; sourceTree = "<group>"; };
+		21B646331FAC4DF800A69256 /* UIMenuItem+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIMenuItem+Category.h"; sourceTree = "<group>"; };
+		21B646341FAC4DF800A69256 /* UIMenuItem+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIMenuItem+Category.m"; sourceTree = "<group>"; };
+		21B646371FAC507400A69256 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		21B646381FAC507400A69256 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		21B6463A1FAC682B00A69256 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		21B6463B1FAC682B00A69256 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		21B646401FAC68DB00A69256 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		21B646411FAC68DB00A69256 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		21B646431FAFF36D00A69256 /* UIColor+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hex.h"; sourceTree = "<group>"; };
+		21B646441FAFF36D00A69256 /* UIColor+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hex.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21B645E01FAC008900A69256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B645F91FAC008900A69256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B646041FAC008900A69256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B645DA1FAC008900A69256 = {
+			isa = PBXGroup;
+			children = (
+				21B645E51FAC008900A69256 /* ZEB_category */,
+				21B645E41FAC008900A69256 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21B645E41FAC008900A69256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21B645E31FAC008900A69256 /* ZEB_category.app */,
+				21B645FC1FAC008900A69256 /* ZEB_categoryTests.xctest */,
+				21B646071FAC008900A69256 /* ZEB_categoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21B645E51FAC008900A69256 /* ZEB_category */ = {
+			isa = PBXGroup;
+			children = (
+				21B646361FAC506000A69256 /* UIImage */,
+				21B646321FAC479500A69256 /* UIMenuItem */,
+				21B6462B1FAC417700A69256 /* NSDictionary */,
+				21B646271FAC40C500A69256 /* NSArray */,
+				21B646261FAC40BD00A69256 /* UIButton */,
+				21B646251FAC40B700A69256 /* UIView */,
+				21B646241FAC40A700A69256 /* UIColor */,
+				21B6461D1FAC0B5800A69256 /* NSString */,
+				21B646191FAC00D900A69256 /* zeb_tableview */,
+			);
+			path = ZEB_category;
+			sourceTree = "<group>";
+		};
+		21B646191FAC00D900A69256 /* zeb_tableview */ = {
+			isa = PBXGroup;
+			children = (
+				21B6461A1FAC010C00A69256 /* UITableView+zeb_cellAnimation.h */,
+				21B6461B1FAC010C00A69256 /* UITableView+zeb_cellAnimation.m */,
+			);
+			path = zeb_tableview;
+			sourceTree = "<group>";
+		};
+		21B6461D1FAC0B5800A69256 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				21B6461E1FAC0B7300A69256 /* NSString+tool.h */,
+				21B6461F1FAC0B7300A69256 /* NSString+tool.m */,
+				21B646211FAC385A00A69256 /* NSString+Predicate.h */,
+				21B646221FAC385A00A69256 /* NSString+Predicate.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		21B646241FAC40A700A69256 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				21B646431FAFF36D00A69256 /* UIColor+hex.h */,
+				21B646441FAFF36D00A69256 /* UIColor+hex.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		21B646251FAC40B700A69256 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				21B6463A1FAC682B00A69256 /* UIView+Category.h */,
+				21B6463B1FAC682B00A69256 /* UIView+Category.m */,
+				21B646401FAC68DB00A69256 /* UIView+Frame.h */,
+				21B646411FAC68DB00A69256 /* UIView+Frame.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		21B646261FAC40BD00A69256 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				21B6462F1FAC437400A69256 /* UIButton+tool.h */,
+				21B646301FAC437400A69256 /* UIButton+tool.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		21B646271FAC40C500A69256 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				21B646281FAC410D00A69256 /* NSArray+tool.h */,
+				21B646291FAC411200A69256 /* NSArray+tool.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		21B6462B1FAC417700A69256 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				21B6462C1FAC418300A69256 /* NSDictionary+tool.h */,
+				21B6462D1FAC418900A69256 /* NSDictionary+tool.m */,
+			);
+			name = NSDictionary;
+			path = zeb_tableview/NSDictionary;
+			sourceTree = "<group>";
+		};
+		21B646321FAC479500A69256 /* UIMenuItem */ = {
+			isa = PBXGroup;
+			children = (
+				21B646331FAC4DF800A69256 /* UIMenuItem+Category.h */,
+				21B646341FAC4DF800A69256 /* UIMenuItem+Category.m */,
+			);
+			path = UIMenuItem;
+			sourceTree = "<group>";
+		};
+		21B646361FAC506000A69256 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				21B646371FAC507400A69256 /* UIImage+Category.h */,
+				21B646381FAC507400A69256 /* UIImage+Category.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21B645E21FAC008900A69256 /* ZEB_category */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B646101FAC008A00A69256 /* Build configuration list for PBXNativeTarget "ZEB_category" */;
+			buildPhases = (
+				21B645DF1FAC008900A69256 /* Sources */,
+				21B645E01FAC008900A69256 /* Frameworks */,
+				21B645E11FAC008900A69256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZEB_category;
+			productName = ZEB_category;
+			productReference = 21B645E31FAC008900A69256 /* ZEB_category.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21B645FB1FAC008900A69256 /* ZEB_categoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B646131FAC008A00A69256 /* Build configuration list for PBXNativeTarget "ZEB_categoryTests" */;
+			buildPhases = (
+				21B645F81FAC008900A69256 /* Sources */,
+				21B645F91FAC008900A69256 /* Frameworks */,
+				21B645FA1FAC008900A69256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21B645FE1FAC008900A69256 /* PBXTargetDependency */,
+			);
+			name = ZEB_categoryTests;
+			productName = ZEB_categoryTests;
+			productReference = 21B645FC1FAC008900A69256 /* ZEB_categoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21B646061FAC008900A69256 /* ZEB_categoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B646161FAC008A00A69256 /* Build configuration list for PBXNativeTarget "ZEB_categoryUITests" */;
+			buildPhases = (
+				21B646031FAC008900A69256 /* Sources */,
+				21B646041FAC008900A69256 /* Frameworks */,
+				21B646051FAC008900A69256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21B646091FAC008900A69256 /* PBXTargetDependency */,
+			);
+			name = ZEB_categoryUITests;
+			productName = ZEB_categoryUITests;
+			productReference = 21B646071FAC008900A69256 /* ZEB_categoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21B645DB1FAC008900A69256 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "周亮亮(外包)";
+				TargetAttributes = {
+					21B645E21FAC008900A69256 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5CQ9FGBUMA;
+						ProvisioningStyle = Automatic;
+					};
+					21B645FB1FAC008900A69256 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5CQ9FGBUMA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21B645E21FAC008900A69256;
+					};
+					21B646061FAC008900A69256 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5CQ9FGBUMA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21B645E21FAC008900A69256;
+					};
+				};
+			};
+			buildConfigurationList = 21B645DE1FAC008900A69256 /* Build configuration list for PBXProject "ZEB_category" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21B645DA1FAC008900A69256;
+			productRefGroup = 21B645E41FAC008900A69256 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21B645E21FAC008900A69256 /* ZEB_category */,
+				21B645FB1FAC008900A69256 /* ZEB_categoryTests */,
+				21B646061FAC008900A69256 /* ZEB_categoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21B645E11FAC008900A69256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B645FA1FAC008900A69256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B646051FAC008900A69256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21B645DF1FAC008900A69256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B646201FAC0B7300A69256 /* NSString+tool.m in Sources */,
+				21B6463C1FAC682B00A69256 /* UIView+Category.m in Sources */,
+				21B646351FAC4DF800A69256 /* UIMenuItem+Category.m in Sources */,
+				21B646451FAFF36D00A69256 /* UIColor+hex.m in Sources */,
+				21B646311FAC437400A69256 /* UIButton+tool.m in Sources */,
+				21B646231FAC385A00A69256 /* NSString+Predicate.m in Sources */,
+				21B6462E1FAC418900A69256 /* NSDictionary+tool.m in Sources */,
+				21B6462A1FAC411200A69256 /* NSArray+tool.m in Sources */,
+				21B6461C1FAC010C00A69256 /* UITableView+zeb_cellAnimation.m in Sources */,
+				21B646421FAC68DB00A69256 /* UIView+Frame.m in Sources */,
+				21B646391FAC507400A69256 /* UIImage+Category.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B645F81FAC008900A69256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B646031FAC008900A69256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21B645FE1FAC008900A69256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21B645E21FAC008900A69256 /* ZEB_category */;
+			targetProxy = 21B645FD1FAC008900A69256 /* PBXContainerItemProxy */;
+		};
+		21B646091FAC008900A69256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21B645E21FAC008900A69256 /* ZEB_category */;
+			targetProxy = 21B646081FAC008900A69256 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21B6460E1FAC008A00A69256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21B6460F1FAC008A00A69256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21B646111FAC008A00A69256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5CQ9FGBUMA;
+				INFOPLIST_FILE = ZEB_category/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liang.ZEB-category";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21B646121FAC008A00A69256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5CQ9FGBUMA;
+				INFOPLIST_FILE = ZEB_category/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liang.ZEB-category";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21B646141FAC008A00A69256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5CQ9FGBUMA;
+				INFOPLIST_FILE = ZEB_categoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liang.ZEB-categoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZEB_category.app/ZEB_category";
+			};
+			name = Debug;
+		};
+		21B646151FAC008A00A69256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5CQ9FGBUMA;
+				INFOPLIST_FILE = ZEB_categoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liang.ZEB-categoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZEB_category.app/ZEB_category";
+			};
+			name = Release;
+		};
+		21B646171FAC008A00A69256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5CQ9FGBUMA;
+				INFOPLIST_FILE = ZEB_categoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liang.ZEB-categoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZEB_category;
+			};
+			name = Debug;
+		};
+		21B646181FAC008A00A69256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5CQ9FGBUMA;
+				INFOPLIST_FILE = ZEB_categoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liang.ZEB-categoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZEB_category;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21B645DE1FAC008900A69256 /* Build configuration list for PBXProject "ZEB_category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B6460E1FAC008A00A69256 /* Debug */,
+				21B6460F1FAC008A00A69256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21B646101FAC008A00A69256 /* Build configuration list for PBXNativeTarget "ZEB_category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B646111FAC008A00A69256 /* Debug */,
+				21B646121FAC008A00A69256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21B646131FAC008A00A69256 /* Build configuration list for PBXNativeTarget "ZEB_categoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B646141FAC008A00A69256 /* Debug */,
+				21B646151FAC008A00A69256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21B646161FAC008A00A69256 /* Build configuration list for PBXNativeTarget "ZEB_categoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B646171FAC008A00A69256 /* Debug */,
+				21B646181FAC008A00A69256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21B645DB1FAC008900A69256 /* Project object */;
+}
